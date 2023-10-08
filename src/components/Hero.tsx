@@ -7,7 +7,7 @@ export default function Hero() {
     const handleScroll = () => {
     }
     return (
-        <div className={'hero'}>
+        <section className={'hero'}>
             <div className={'flex-1 pt-36 padding-x'}>
                 <h1 className={'hero__title'}>Find, book, ot rent a car -- quickly and easily!</h1>
 
@@ -25,6 +25,6 @@ export default function Hero() {
                 </div>
                 <div className={'hero__image-overlay'}/>
             </div>
-        </div>
+        </section>
     )
 }
