@@ -1,3 +1,5 @@
+'use client'
+
 import {SearchManufacturerProps} from '@/types'
 import {Fragment, useState} from 'react'
 
